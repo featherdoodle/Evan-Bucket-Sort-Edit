@@ -16,7 +16,7 @@ public class Main {
 
         Random random = new Random();
 
-        int size = 100000; //the number of values that will be generated
+        int size = 1000000; //the number of values that will be generated
         int max = 100000; //the maximum value of the numbers generated
 
 
