@@ -8,16 +8,16 @@ import java.util.Arrays;
 import java.util.Random;
 
 
-
-
 public class Main {
     
     public static void main(String[] args) {
 
+
         Random random = new Random();
 
-        int size = 1000000; //the number of values that will be generated
-        int max = 100000; //the maximum value of the numbers generated
+
+        int size = 100000; //the number of values that will be generated
+        int max = 100; //the maximum value of the numbers generated
 
 
         int[] num = new int[size]; //creating a new array to store the unsorted list
@@ -31,6 +31,7 @@ public class Main {
 
         //uncomment to print out the unsorted array (faster without printing it)
         //System.out.println(Arrays.toString(num));
+
 
         BucketSort bucketSort = new BucketSort();
         //finding the time the sort starts to find sort efficiency
@@ -47,4 +48,3 @@ public class Main {
         
     }
 }
-
